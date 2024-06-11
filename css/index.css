@@ -116,6 +116,8 @@ footer {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 #sec3 .box1 {
   background-color: rgb(213, 206, 163);
@@ -128,8 +130,38 @@ footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 10px;
 }
 #sec3 .box1 img {
   width: 250px;
   height: 350px;
+}
+
+@media (max-width: 1080px) {
+  #sec1 {
+    height: 500px;
+    width: 100%;
+    background-color: rgb(26, 18, 11);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 10px;
+    margin-top: 0px;
+  }
+  #sec1 .btext {
+    width: 50%;
+    height: 100%;
+  }
+  #sec1 .btext h2 {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    color: rgb(213, 206, 163);
+    font-size: 80px;
+  }
+  #sec1 .btext p {
+    font-size: 15px;
+    color: rgb(213, 206, 163);
+  }
 }
