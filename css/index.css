@@ -1,0 +1,135 @@
+header {
+  background-color: rgb(60, 42, 33);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-bottom: 15px;
+}
+header h1 {
+  color: rgb(213, 206, 163);
+  display: inline-block;
+  padding-left: 1%;
+}
+header h2 {
+  color: rgb(213, 206, 163);
+  display: inline-block;
+  font-family: "Courier New", Courier, monospace;
+  padding-right: 1%;
+}
+
+nav {
+  background-color: rgb(60, 42, 33);
+}
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+nav ul li {
+  color: rgb(213, 206, 163);
+}
+
+#sec1 {
+  height: 500px;
+  width: 100%;
+  background-color: rgb(26, 18, 11);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+  margin-top: 0px;
+}
+#sec1 .btext {
+  width: 50%;
+  height: 100%;
+}
+#sec1 .btext h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(213, 206, 163);
+  font-size: 100px;
+}
+#sec1 .btext p {
+  font-size: 20px;
+  color: rgb(213, 206, 163);
+}
+#sec1 #imageCarousel {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#sec1 #imageCarousel .carousel-item img {
+  width: 250px;
+  height: 550px;
+}
+
+#sec2 {
+  width: 100%;
+  height: 117PX;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+#sec2 img {
+  height: 100px;
+  width: 200px;
+  padding: 10px;
+  margin: 5px;
+}
+
+footer {
+  background-color: rgb(60, 42, 33);
+  position: relative;
+  bottom: 0px;
+  height: 50px;
+  width: 100%;
+}
+
+#sec3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+#sec3 .box1 {
+  background-color: rgb(213, 206, 163);
+  border-radius: 15px;
+  width: 400px;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+#sec3 .box1 img {
+  width: 250px;
+  height: 350px;
+}
